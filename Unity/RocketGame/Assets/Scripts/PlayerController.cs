@@ -1,4 +1,5 @@
 using Autohand;
+using Normal.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,6 +32,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log(Player.body == Body);
     }
 
+
     private void RightHand_OnTriggerGrab(Hand hand, Grabbable grabbable) //Execute when Grip button is pressed
     {
         jump();
@@ -38,6 +40,5 @@ public class PlayerController : MonoBehaviour
 
     private void RightHand_OnSqueezed(Hand hand, Grabbable grabbable) //Executed when Trigger button is pressed
     {
-        
     }
 }
