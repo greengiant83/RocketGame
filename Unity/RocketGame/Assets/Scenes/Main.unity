@@ -569,7 +569,7 @@ MonoBehaviour:
   Hand: {fileID: 141402746}
   RocketPrefabName: Rocket
   FirePoint: {fileID: 2005345773}
-  FireSpeed: 1
+  FireSpeed: 50
 --- !u!1 &1306164122
 GameObject:
   m_ObjectHideFlags: 0
